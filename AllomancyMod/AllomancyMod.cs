@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
 using UnityEngine;
+using ValheimMod.Util;
 
 namespace ValheimMod
 {
@@ -11,11 +12,14 @@ namespace ValheimMod
     [BepInProcess("valheim.exe")]
     public class AllomancyMod : BaseUnityPlugin
     {
+        public const string AssetBundleName = "allomancy";
         private readonly Harmony harmony = new Harmony("marnmods.AllomancyMod");
 
         void Awake()
         {
-            Items.Pewter.PewterItemData.Init();
+            var assetBundle = AssetHelper.GetAssetBundleFromResources(AssetBundleName);
+            Items.Pewter.PewterItemData.Init(assetBundle);
+            Items.Pewter.MeadPewterItemData.Init(assetBundle);
             harmony.PatchAll();
         }
 

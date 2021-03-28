@@ -66,6 +66,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AllomancyMod.cs" />
+    <Compile Include="Items\MeadPewter\MeadPewterItemData.cs" />
     <Compile Include="Items\Pewter\PewterItemData.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Util\AssetHelper.cs" />

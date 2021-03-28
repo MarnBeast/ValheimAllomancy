@@ -13,9 +13,7 @@ namespace ValheimMod.Items.Pewter
         public static CustomItem CustomItem;
         public static CustomRecipe CustomRecipe;
 
-        public const string AssetBundleName = "allomancy";
         public const string PrefabPath = "Assets/CustomItems/Pewter.prefab";
-
 
         public const string TokenName = "$custom_item_pewter";
         public const string TokenValue = "Pewter";
@@ -27,9 +25,8 @@ namespace ValheimMod.Items.Pewter
 
         public const string TokenLanguage = "English";
 
-        internal static void Init()
+        internal static void Init(AssetBundle assetBundle)
         {
-            var assetBundle = AssetHelper.GetAssetBundleFromResources(AssetBundleName);
             PewterPrefab = assetBundle.LoadAsset<GameObject>(PrefabPath);
 
             AddCustomRecipe();
