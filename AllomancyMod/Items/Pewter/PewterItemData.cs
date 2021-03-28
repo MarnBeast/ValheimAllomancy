@@ -13,7 +13,7 @@ namespace ValheimMod.Items.Pewter
         public static CustomItem CustomItem;
         public static CustomRecipe CustomRecipe;
 
-        public const string AssetBundleName = "pewter";
+        public const string AssetBundleName = "allomancy";
         public const string PrefabPath = "Assets/CustomItems/Pewter.prefab";
 
 

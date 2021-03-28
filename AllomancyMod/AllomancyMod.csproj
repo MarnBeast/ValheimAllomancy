@@ -71,7 +71,7 @@
     <Compile Include="Util\AssetHelper.cs" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Assets\pewter" />
+    <EmbeddedResource Include="Assets\allomancy" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
