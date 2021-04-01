@@ -5,7 +5,7 @@ using UnityEngine;
 using ValheimLib;
 using ValheimLib.ODB;
 
-namespace ValheimMod.Items.Pewter
+namespace ValheimMod.Items
 {
     public static class PewterItemData
     {

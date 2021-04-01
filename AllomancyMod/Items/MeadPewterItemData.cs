@@ -1,11 +1,9 @@
-﻿using ValheimMod.Util;
-using System.Collections.Generic;
-using System.Reflection;
+﻿using System.Collections.Generic;
 using UnityEngine;
 using ValheimLib;
 using ValheimLib.ODB;
 
-namespace ValheimMod.Items.Pewter
+namespace ValheimMod.Items
 {
     public static class MeadPewterItemData
     {
@@ -30,6 +28,7 @@ namespace ValheimMod.Items.Pewter
         public const string CraftingStationPrefabName = "forge";
 
         public const string TokenLanguage = "English";
+
 
         internal static void Init(AssetBundle assetBundle)
         {
@@ -58,7 +57,7 @@ namespace ValheimMod.Items.Pewter
             var neededResources = new List<Piece.Requirement>
             {
                 MockRequirement.Create("Pewter", 1),
-                MockRequirement.Create("MeadTasty", 3),
+                MockRequirement.Create("MeadTasty", 2),
             };
 
             recipe.m_resources = neededResources.ToArray();

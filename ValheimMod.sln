@@ -5,6 +5,14 @@ VisualStudioVersion = 16.0.31112.23
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AllomancyMod", "AllomancyMod\AllomancyMod.csproj", "{11349B09-4715-45B7-BFE1-6744053C222C}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "assembly_valheim", "..\OldValheimMods\AssemblyValheim\assembly_valheim.csproj", "{A19FE93C-5A4A-42AF-95A0-764311A9992C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "assembly_utils", "..\OldValheimMods\AssemblyUtils\assembly_utils.csproj", "{DDC51BE4-C0D9-4666-9709-C4ABEAC6D351}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "assembly_postprocessing", "..\OldValheimMods\AssemblyPostProcessing\assembly_postprocessing.csproj", "{FEB0B562-E152-484D-B042-14AFAC7B3369}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JumpMod", "..\OldValheimMods\JumpMod\JumpMod.csproj", "{10C44E13-EE10-4240-A49D-4849C9DC4644}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +23,22 @@ Global
 		{11349B09-4715-45B7-BFE1-6744053C222C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{11349B09-4715-45B7-BFE1-6744053C222C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{11349B09-4715-45B7-BFE1-6744053C222C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A19FE93C-5A4A-42AF-95A0-764311A9992C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A19FE93C-5A4A-42AF-95A0-764311A9992C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A19FE93C-5A4A-42AF-95A0-764311A9992C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A19FE93C-5A4A-42AF-95A0-764311A9992C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDC51BE4-C0D9-4666-9709-C4ABEAC6D351}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDC51BE4-C0D9-4666-9709-C4ABEAC6D351}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDC51BE4-C0D9-4666-9709-C4ABEAC6D351}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDC51BE4-C0D9-4666-9709-C4ABEAC6D351}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEB0B562-E152-484D-B042-14AFAC7B3369}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEB0B562-E152-484D-B042-14AFAC7B3369}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEB0B562-E152-484D-B042-14AFAC7B3369}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEB0B562-E152-484D-B042-14AFAC7B3369}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10C44E13-EE10-4240-A49D-4849C9DC4644}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10C44E13-EE10-4240-A49D-4849C9DC4644}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10C44E13-EE10-4240-A49D-4849C9DC4644}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10C44E13-EE10-4240-A49D-4849C9DC4644}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,9 +1,6 @@
 ﻿using BepInEx;
 using HarmonyLib;
 using System.Collections.Generic;
-using System.Linq;
-using System.Reflection;
-using UnityEngine;
 using ValheimMod.Util;
 
 namespace ValheimMod
@@ -18,8 +15,9 @@ namespace ValheimMod
         void Awake()
         {
             var assetBundle = AssetHelper.GetAssetBundleFromResources(AssetBundleName);
-            Items.Pewter.PewterItemData.Init(assetBundle);
-            Items.Pewter.MeadPewterItemData.Init(assetBundle);
+            Items.PewterItemData.Init(assetBundle);
+            Items.MeadPewterItemData.Init(assetBundle);
+            Items.MeadTinItemData.Init(assetBundle);
             harmony.PatchAll();
         }
 
@@ -27,5 +25,6 @@ namespace ValheimMod
         {
             harmony.UnpatchSelf();
         }
+
     }
 }
